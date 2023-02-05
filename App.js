@@ -9,9 +9,9 @@ export default function App() {
 
       {/* Today's Tasks */} 
       <View style={styles.tasksWrapper}>
-        <Text styles={styles.sectionTitle}>Today's tasks</Text>
+        <Text style={styles.sectionTitle}>Today's tasks</Text>
 
-        <View styles={styles.item}>
+        <View style={styles.items}>
           {/* This is where the task will go! */}
           <Task text={'Task 1'} />
           <Task text={'Task 2'}/>
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   },
   items: {
     marginTop: 30,
